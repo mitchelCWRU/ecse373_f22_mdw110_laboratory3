@@ -15,6 +15,9 @@ lab3.launch usage:
 Purpose: Launches the navvis robot description in RVIZ and visualized data from a specified bag file
 
 lab3.launch arguments:
+
     - `bag_path`: Path to bag file
+
     - `bag_args`: Arugments for `rosbag` call such as `/tf_trajectory:=/tf --clock`
+
     - `map_config_path`: path to map .yaml config file
